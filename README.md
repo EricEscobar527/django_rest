@@ -34,17 +34,21 @@ eliminar productos, y debe funcionar en un entorno Docker.
 
 Sigue estos pasos para configurar el proyecto en tu entorno local:
 
-1. **Clona el repositorio o colocate en la raiz de la carpeta descargada**:
-   ```bash
-   git clone https://github.com/EricEscobar527/crud_reina.git
-   ```
+> ## Paso 1
+>> Clona el repositorio
+> `git clone https://github.com/EricEscobar527/django_rest`
 
-2. **Colocate en la raiz del proyecto para crear y ejecutar las migraciones**:
-    ```bash 
-     python manage.py migrate         
-    ```
+> ## Paso 2
+>> Nos dirigiremos a la raíz de nuestro proyecto donde se encuentra el archivo docker-compose.yml y ejecutamos el siguiente comando
+> `docker-compose up --build -d`
 
-2. **Ejecuta el proyecto en tu local**:
-    ```bash
-     python manage.py runserver       
-    ```
+> ## Paso 3
+>> Validaremos que nuestro contenedor se haya creado de forma correcta
+> Ingresando a alguna de las siguientes rutas
+
+*   __localhost:8000__ 
+*   __tu_ip:8000__ 
+
+# Contacto
+
+*   __e888953@gmail.com__
