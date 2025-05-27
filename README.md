@@ -49,6 +49,11 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 *   __localhost:8000__ 
 *   __tu_ip:8000__ 
 
+## Documentacion
+
+*   __localhost:8000/api/redoc/__ 
+*   __tu_ip:8000/api/redoc/__ 
+
 # Contacto
 
 *   __e888953@gmail.com__
